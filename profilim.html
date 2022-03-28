@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yazılımcı Yunus</title>
+    <style>
+        .bioarka{
+            height: 500px;
+            width: 100%;
+            border: 1px solid black;
+            background-image: url(/img/bioarka.jpg);
+        }
+        ul li{
+            list-style-type: none;
+            float: left;
+            margin-left: 50px;
+            padding-left: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+         ul li>a{
+             color: white;
+             text-decoration: none;
+             
+        }
+        .profilepagem{
+            height: 430px;
+            width: 300px;
+            border-radius: 10px; ;
+        }
+        .foto{
+         position: absolute; 
+         top: 100px; 
+         left: 200px;
+        }
+        .bilgiler{
+            position: absolute;
+            left: 520px;
+            top: 100px;
+            color: white;
+        }
+        .basliklar{
+            position: absolute;
+            left: 70px;
+            opacity: 0.7;
+            
+        }
+        .altbasliklar{
+            color: aqua;
+            position: absolute;
+            left: 70px;
+            font-size: 30px;
+        }
+        .okul{
+            position: absolute;
+            left: 40px;
+        }
+        .seviye{
+            position: absolute;
+            left: 90px;
+        }
+        .iletisim{
+         width: 100%;
+         height: 700px;
+         background-image: url(/img/letişim.jpg);
+        }
+        .iletisim_yazi_rengi{
+            font-size: 20px;
+          color: white;
+          padding-left: 100px; padding-top: 100px;
+        }
+        .mesaj_kutusu{
+            position: absolute;
+            left: 500px; 
+            margin-top: 100px; 
+            height: 550px;
+            width: 600px;
+        }
+        .kutucuk{
+            width: 400px;
+            height: 30px;
+            margin-left: 20px;
+            opacity: 0.5;
+        }
+        .ileti{
+            height: 200px;
+            width: 500px;
+            opacity: 0.5;
+            max-width: 500px;
+            max-height: 300px;
+            min-width: 400px;
+            min-height: 100px;
+        }
+       </style>
+ 
+</head>
+<body>
+    <div class="bioarka">
+        <ul>
+            <li><a href="#merhaba">MERHABA</a></li> 
+            <li><a href="#">ÖZGEÇMIŞ</a><li>  
+            <li><a href="#">PORTFÖY</a></li> 
+            <li><a href="#">FIKIRLERI</a></li> 
+            <li><a href="#">İLETIŞIM</a></li>
+        </ul>
+        <div class="foto" style="" ><img  class="profilepagem" src="/img/img_avatar.png"></div>
+        <div class="bilgiler"><h1>YUNUS EMRE CİNBOLAT</h1>
+            <h3>Yazılım Mühendisliği- Web Programlama,<br>
+                İnönü Üniversitesi Yapay Zeka Topluluk Başkanı
+            </h3>
+            <p>Yaş: 21</p>
+            <p>Telefon: +(90) 5538321530</p>
+            <p>E-mail: <a href="Yunus.Emre.Cinbolat@gmail.com" class="iletisim_yazi_rengi">Yunus.Emre.Cinbolat@gmail.com</a></p>
+            <p>Adres: Battalgazi Malatya</p>
+        </div>
+     </div><br><br>
+    <a neme="merhaba"></a>
+        <h1 class="basliklar">MERHABA</h1><br><br><br><br>
+        <pre style="font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" >            Merhaba ben Yunus Emre Cinbolat Yazılım Mühendisliği 1.Sınıf öğrencisiyim ilkokul, ortaokul ve lise yıllarımı kahramanmaraşta 
+            tamamladım YKS sınavından yüksek bir derece yaparak İnönü Üniversitesi Yazılım Mühendisliği 1.sınıfı okumaktayım ve 
+             şuan c java pyhton öğrenmenin yanı sıra yapay zeka ve ingilizce eğitimi alıyorum</pre>
+        <h1 class="basliklar">ÖZGEÇMİŞ</h1><br><br>
+        <h3 class="altbasliklar">Eğitim</h3><br><br><br><br>
+        <div class="okul" >2011-2015 -> Arslanbey ortaokulu<br>
+            2016-2020 -> Mehmet Gümüşer Anadolu Lisesi<br>
+            2021-? -> İnönü Üniversitesi
+        </div><br><br>
+        <h3 class="altbasliklar">Bildiği Diller ve Seviyesi</h3><br><br><br><br>
+        <b class="okul">C</b> <input class="seviye"  type="range" min="0" value="85" step="85" max="100">
+        <span style="position: absolute; left: 250px;">85</span><br>
+        <b class="okul">HTML</b> <input class="seviye"  type="range" min="0" value="95" step="95" max="100">
+        <span style="position: absolute; left: 250px;">95</span><br>
+        <b class="okul">CSS</b> <input class="seviye"  type="range" min="0" value="80" step="80" max="100">
+        <span style="position: absolute; left: 250px;">80</span><br>
+        <b class="okul">Pyhton</b> <input class="seviye"  type="range" min="0" value="50" step="50" max="100">
+        <span style="position: absolute; left: 250px;">50</span><br>
+        <b class="okul">Javascript</b> <input class="seviye" style="position: absolute; left: 120px;"  
+        type="range" min="0" value="50" step="50" max="100">
+        <span style="position: absolute; left: 250px;">50</span><br>
+        <div class="iletisim">
+            <div style="position: absolute;"><h2 class="iletisim_yazi_rengi" >İLETİŞİME GEÇİN...</h2><br>
+            <b class="iletisim_yazi_rengi">Telefon:  05538321530 </b><br>
+            <b class="iletisim_yazi_rengi">E-mail: <a class="iletisim_yazi_rengi"
+             href="Yunus.Emre.Cinbolat@gmail.com" style="padding-left: 20px;">Yunus.Emre.Cinbolat@gmail.com</a></b>
+              <br>
+              <br>
+            <a class="iletisim_yazi_rengi"  href="https://www.linkedin.com/in/yunus-emre-cinbolat-545759233/"
+            >Linkedin</a></b>
+            <br>
+            <br>
+            <a class="iletisim_yazi_rengi"  href="https://github.com/Yunusemre1530">Github</a></b>
+            </div>
+            <div class="mesaj_kutusu"><span style="color: white; font-size: 30px;">Ya da bana buraya bir mektup yaz</span>
+              <br>
+              <br>
+              <br>
+              <input type="text"  class="kutucuk" placeholder="Adınızı soyadınızı giriniz">
+              <br>
+              <br>
+              <input type="email"  class="kutucuk" placeholder="E-mailinizi giriniz">
+              <br>
+              <br>
+              <textarea  class="ileti kutucuk"  placeholder="Mesajınızı Yazın"></textarea>
+              <br>
+              <br>
+              <button style="border-radius: 10px; margin-left: 100px; width: 400px; opacity: 0.7;">GÖNDER</button>
+
+            </div>
+            
+
+        </div>
+        
+
+</body>
+</html>
